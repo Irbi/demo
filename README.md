@@ -29,8 +29,9 @@
      - Implement core
      - Implement public API
      - Implement nullifier
-     - Implement secured proof storage
+     - Implement|integrate secured storages
      - Implement NFC module
-     -   
+     - Implement DSL: definition, pasrser and interpreter; integrate 
+     - 
 
   - Critical Milestones:
