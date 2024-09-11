@@ -8,11 +8,14 @@
 
 3. Standardized Attestation Construction API:
    - What are the key components of the Attestation API?
+   
+       From the structure perspective, the Attestation API will include the following modules:
+       
         - data collector (including secure reading (mrz/nfc) and KYC integration)
         - secured data storage
         - flexible proofs composer and commands interpreter (DSL) 
         - attestation proofs based on zk-SNARKs
-
+    
    - How will nullifier and expiration support be implemented in the proofs?
 	    - We propose to implement nullifiers basing on o1js (https://github.com/o1-labs/o1js/tree/main)
 
