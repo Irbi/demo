@@ -32,4 +32,7 @@
         As a DSL syntax, we propose to use the bash-like syntax as a well-known, simple and expressive enough to describe any subsequence of actions     
         
 5. What are your thoughts regarding security and preventing proof reuse?
-    - To prevent proof reuse we will implement proof nullifiers mentioned above  
+        
+    To prevent proof reuse we will implement proof nullifiers mentioned above.
+    
+    Besides, every attestation input must include user's pubKey as a guarantee of its authenticity.  
